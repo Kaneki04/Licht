@@ -91,7 +91,6 @@ header {
 /* max-width */
 .max-width {
   max-width: 1300px;
-  padding: 0 80px;
   margin: auto;
 }
 /* Home */
@@ -261,11 +260,12 @@ section .title span {
   margin-bottom: 20px;
 }
 .youtube .youtube-content iframe {
-  height: 250px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
 }
 .youtube .youtube-content .right {
   width: 50%;
+  margin: 0 auto 0 auto;
 }
 .youtube .youtube-content .left {
   width: 40%;
@@ -617,9 +617,7 @@ footer p span {
   }
 
   .youtube .youtube-content .right {
-    display: flex;
-    justify-content: center;
-    margin: 30px auto 0px;
+    margin-top: 30px;
     width: 400px;
   }
   .skills .skills-content .column {
@@ -640,12 +638,7 @@ footer p span {
     width: 60%;
     margin: 0 20% 0 20%;
   }
-  .youtube .youtube-content .right {
-    display: flex;
-    justify-content: center;
-    margin: 30px auto 0px;
-    width: 70%;
-  }
+
   section {
     margin: 30px 0 0 0;
   }
@@ -659,6 +652,10 @@ footer p span {
     width: 90%;
   }
   .home .home-content img {
+    height: 250px;
+    width: 250px;
+  }
+  .about .about-content .left img {
     height: 250px;
     width: 250px;
   }
@@ -690,9 +687,12 @@ footer p span {
   }
 }
 @media (max-width: 650px) {
+  .max-width {
+    padding: 0 10px;
+  }
   .nav .menu {
-    width: 65%;
-    margin: 0 17.5% 0 17.5%;
+    width: 70%;
+    margin: 0 15% 0 15%;
   }
   .services .services-content .left,
   .services .services-content .middle,
@@ -700,10 +700,7 @@ footer p span {
     margin: 0px auto 30px auto;
     width: 100%;
   }
-  .home .home-content img {
-    height: 200px;
-    width: 200px;
-  }
+
   .home .home-content .text-1 {
     font-size: 30px;
   }
@@ -716,5 +713,19 @@ footer p span {
   }
   .proyects .proyect-content .column {
     margin: 20px 0px 0 0px;
+  }
+}
+@media (max-width: 350px) {
+  .home .home-content img {
+    height: 200px;
+    width: 200px;
+  }
+  .about .about-content .left img {
+    height: 200px;
+    width: 200px;
+  }
+  .nav .menu {
+    width: 90%;
+    margin: 0 5% 0 5%;
   }
 }
