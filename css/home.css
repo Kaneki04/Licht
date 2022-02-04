@@ -545,8 +545,8 @@ footer p span {
 
 @media (max-width: 1104px) {
   .services .services-content .middle .mini-boxes {
-    height: 105px;
-    width: 50%;
+    height: 110px;
+    width: 200px;
   }
   .services .services-content .column {
     width: 50%;
@@ -727,5 +727,16 @@ footer p span {
   .nav .menu {
     width: 90%;
     margin: 0 5% 0 5%;
+  }
+}
+
+@media (max-width: 300px) {
+  .services .services-content .middle .mini-boxes {
+    background-color: #151924;
+    border-radius: 10px;
+    height: 105px;
+    width: 160px;
+    padding: 10px 5px 0px 20px;
+    margin: auto;
   }
 }
