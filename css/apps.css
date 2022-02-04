@@ -1,0 +1,113 @@
+p a {
+  color: #086e7d;
+}
+
+/* post */
+
+.intro-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.post .max-width .content p {
+  font-size: 18px;
+  color: white;
+}
+.post .max-width .content .abajo .info p {
+  font-size: 15px;
+  color: gray;
+  position: absolute;
+  transform: translateY(-50px);
+}
+.post .max-width .content .abajo .info div {
+  font-size: 15px;
+  margin: 20px 0 50px 0;
+  color: white;
+}
+
+.post .max-width .content .abajo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post .max-width .content .download img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.post .max-width .content .download {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  width: 150px;
+  height: 45px;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.post .max-width .content .download:hover {
+  color: black;
+  background: white;
+}
+
+.post .max-width .content .title div {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 600;
+  color: white;
+}
+.post .max-width .content .title img {
+  height: 70px;
+  width: 70px;
+  border-radius: 6px;
+}
+.post .max-width .content .title span {
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+.post .max-width .content .title hr {
+  border-radius: 10px;
+  width: 50%;
+  height: 1px;
+  background-color: white;
+  border: none;
+  margin: 5px auto 5px auto;
+}
+
+.post .max-width .content .header {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 5px;
+}
+.post .max-width .content .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.post .max-width .content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+article {
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
+.post {
+  display: flex;
+  color: black;
+}
+.post .max-width {
+  margin: 120px 0 80px 0;
+}
+.post .max-width .content .a-pad {
+  margin-top: 30px;
+}
+
+/* content line  */
