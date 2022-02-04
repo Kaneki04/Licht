@@ -544,6 +544,9 @@ footer p span {
 /* Responsiveness */
 
 @media (max-width: 1104px) {
+  .services .services-content .left .bars img {
+    margin: 0 10px auto auto;
+  }
   .services .services-content .middle .mini-boxes {
     height: 110px;
     width: 200px;
