@@ -715,6 +715,13 @@ footer p span {
     margin: 20px 0px 0 0px;
   }
 }
+@media (max-width: 420px) {
+  .nav .menu {
+    width: 85%;
+    margin: 0 7.5% 0 7.5%;
+  }
+}
+
 @media (max-width: 350px) {
   .home .home-content img {
     height: 200px;
@@ -738,5 +745,12 @@ footer p span {
     width: 160px;
     padding: 10px 5px 0px 20px;
     margin: auto;
+  }
+}
+
+@media (max-width: 250px) {
+  .nav .menu {
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
   }
 }
