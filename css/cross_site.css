@@ -68,7 +68,7 @@ header {
 /* max-width */
 .max-width {
   max-width: 1300px;
-  padding: 0 80px;
+  padding: 0 27px;
   margin: auto;
 }
 @media (max-width: 1300px) {
@@ -102,5 +102,38 @@ header {
   .nav .menu {
     width: 55%;
     margin: 0 22.5% 0 22.5%;
+  }
+  .post .max-width .content .abajo {
+    flex-direction: column;
+  }
+  .post .max-width .content .abajo .info div {
+    margin: 20px 0 20px 0;
+  }
+  .post .max-width .content .download {
+    width: 125px;
+    height: 42px;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .post .max-width .content .abajo .info p {
+    transform: translateY(-20px);
+  }
+  .post .max-width .content .download img {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .nav .menu {
+    width: 85%;
+    margin: 0 7.5% 0 7.5%;
+  }
+}
+
+@media (max-width: 250px) {
+  .nav .menu {
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
   }
 }
