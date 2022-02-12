@@ -122,12 +122,12 @@ header {
   font-size: 15px;
 }
 
-/* Proyects Styling */
+/* Projects Styling */
 
-.proyects .title::before {
+.projects .title::before {
   background: black;
 }
-.proyects .proyect-content .card {
+.projects .project-content .card {
   width: 280px;
   height: 230px;
   background: #151924;
@@ -137,23 +137,23 @@ header {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.proyects .proyect-content .card:hover {
+.projects .project-content .card:hover {
   background-color: #22293b;
 }
-.proyects .proyect-content .card .box {
+.projects .project-content .card .box {
   transition: all 0.3s ease;
 }
-.proyects .proyect-content .card:hover .box {
+.projects .project-content .card:hover .box {
   transform: scale(1.05);
 }
-.proyects .proyect-content .card .text {
+.projects .project-content .card .text {
   font-size: 22px;
   margin: 5px 0 15px 0;
 }
-.proyects .proyect-content .card p {
+.projects .project-content .card p {
   font-size: 15px;
 }
-.proyects .proyect-content {
+.projects .project-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -591,7 +591,7 @@ footer p span {
     width: 35%;
     margin: 0 32.5% 0 32.5%;
   }
-  .proyects .proyect-content .column {
+  .projects .project-content .column {
     width: 100%;
     margin: 20px 150px 0 150px;
   }
@@ -611,7 +611,7 @@ footer p span {
     margin: 0px auto 30px auto;
     width: 80%;
   }
-  .proyects .proyect-content .column {
+  .projects .project-content .column {
     margin: 20px 120px 0 120px;
   }
   .youtube .youtube-content .left {
@@ -632,7 +632,7 @@ footer p span {
     width: 50%;
     margin: 0 25% 0 25%;
   }
-  .proyects .proyect-content .column {
+  .projects .project-content .column {
     margin: 20px 90px 0 90px;
   }
 }
@@ -645,7 +645,7 @@ footer p span {
   section {
     margin: 30px 0 0 0;
   }
-  .proyects .proyect-content .column {
+  .projects .project-content .column {
     margin: 20px 50px 0 50px;
   }
   .services .services-content .left,
@@ -714,7 +714,7 @@ footer p span {
   .home .home-content span {
     font-size: 15px;
   }
-  .proyects .proyect-content .column {
+  .projects .project-content .column {
     margin: 20px 0px 0 0px;
   }
 }
