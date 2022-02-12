@@ -136,9 +136,6 @@ header {
   article {
     width: 100%;
   }
-  header {
-    position: absolute;
-  }
 }
 @media (max-width: 550px) {
   .menu {
