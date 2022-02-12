@@ -3,18 +3,10 @@ var hobbies = ['Programming', 'Music', 'Dancing', 'Doing Parkour', 'Learning lan
 $(document).ready(function(){
 $(window).scroll(function(){
     if(this.scrollY>20){
-        $('.navbar').addClass('sticky');
+        $('.nav').addClass('sticky');
     }else{
-        $('.navbar').removeClass('sticky');
+        $('.nav').removeClass('sticky');
         }
-    if (this.scrollY > 500){
-        $('.to-top').addClass('show');
-    }
-    else {
-        $('.to-top').removeClass('show');
-        
-    }
-     
     })
     // typing
     var typed = new Typed('.type', {
@@ -29,16 +21,4 @@ $(window).scroll(function(){
         backSpeed:60,
         loop:true
     });
-    // go Up
-    $('.to-top').click(function(){
-        $('html').animate({scrollTop:0});
-    });
-    // toggle menu/nav
-    $('.menu-btn').click(
-        function(){
-            $('.navbar .menu').toggleClass('active');
-            $('.menu-btn i').toggleClass('active');
-
-        }
-    )
 });
