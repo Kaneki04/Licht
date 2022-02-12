@@ -1,6 +1,9 @@
 * {
   text-align: left;
 }
+article {
+  padding: 0 20px 0 20px;
+}
 p a {
   color: #086e7d;
 }
