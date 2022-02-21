@@ -1,7 +1,7 @@
 hr {
   border-radius: 10px;
   width: 50%;
-  height: 1px;
+  height: 0.5px;
   background-color: white;
   border: none;
   margin: 15px auto 5px auto;
@@ -56,7 +56,7 @@ section:not(.home) {
   background: #151924;
   text-align: center;
   border-radius: 10px;
-  padding: 25px 25px;
+  padding: 25px 30px 25px 30px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -67,7 +67,7 @@ section:not(.home) {
   transition: all 0.3s ease;
 }
 .projects .project-content .card:hover .box {
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
 .projects .project-content .card .text {
   font-size: 22px;
@@ -121,6 +121,7 @@ section .title span {
 
 .about .about-content .left {
   width: 40%;
+  text-align: center;
 }
 
 .about .about-content .right {
@@ -135,8 +136,7 @@ section .title span {
   color: #1cafc5;
 }
 .about .about-content .right p a {
-  color: white;
-  text-decoration-line: underline;
+  color: #1cafc5;
 }
 .about .about-content .right .hobbie {
   font-size: 15px;
@@ -217,17 +217,18 @@ footer .logo {
 footer p span {
   color: #090f1b;
 }
-/* Services */
 
+/* Services */
 .services .services-content .right {
   width: 33%;
   text-align: center;
 }
 .services .services-content .left {
-  width: 270px;
+  width: 30%;
   display: flex;
 }
 .services .services-content .middle {
+  width: 30%;
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -239,7 +240,7 @@ footer p span {
   background-color: #151924;
   border-radius: 10px;
   height: 105px;
-  width: 160px;
+  width: 60%;
   padding: 12px 10px 0px 20px;
   margin: auto;
 }
@@ -429,7 +430,7 @@ footer p span {
   text-align: left;
   border-radius: 10px;
   background-color: #151924;
-  padding: 25px 25px 40px 25px;
+  padding: 30px 40px 40px 40px;
   transition: 0.3s;
   cursor: pointer;
   color: white;
@@ -441,7 +442,7 @@ footer p span {
   transition: 0.3s;
 }
 .articles .articles-content .article:hover .box {
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
 
 .articles .articles-content .article .date {
@@ -470,10 +471,7 @@ footer p span {
   .services .services-content .left .bars img {
     margin: 0 10px auto auto;
   }
-  .services .services-content .middle .mini-boxes {
-    height: 110px;
-    width: 200px;
-  }
+
   .services .services-content .column {
     width: 50%;
   }
@@ -481,24 +479,13 @@ footer p span {
   .services .services-content .middle,
   .services .services-content .right {
     margin: 0px auto 30px auto;
-    width: 70%;
+    width: 60%;
   }
   .articles .articles-content .article {
     width: calc(50% - 10px);
     margin-top: 40px;
   }
-  .about .about-content .column {
-    width: 100%;
-  }
-  .about .about-content .left {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 60px;
-  }
-  .about .about-content .right {
-    width: 300px;
-    margin: 0 auto 0 auto;
-  }
+
   .articles .articles-content .article .date {
     font-size: 10px;
   }
@@ -520,12 +507,6 @@ footer p span {
   }
 }
 @media (max-width: 947px) {
-  .services .services-content .left,
-  .services .services-content .middle,
-  .services .services-content .right {
-    margin: 0px auto 30px auto;
-    width: 80%;
-  }
   .projects .project-content .column {
     margin: 20px 120px 0 120px;
   }
@@ -541,6 +522,18 @@ footer p span {
   .skills .skills-content .column {
     width: 100%;
   }
+  .about .about-content .column {
+    width: 100%;
+  }
+  .about .about-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+  .about .about-content .right {
+    width: 300px;
+    margin: 0 auto 0 auto;
+  }
 }
 @media (max-width: 850px) {
   .projects .project-content .column {
@@ -554,20 +547,12 @@ footer p span {
   .projects .project-content .column {
     margin: 20px 50px 0 50px;
   }
-  .services .services-content .left,
-  .services .services-content .middle,
-  .services .services-content .right {
-    margin: 0px auto 30px auto;
-    width: 90%;
-  }
+
   .home .home-content img {
     height: 250px;
     width: 250px;
   }
-  .about .about-content .left img {
-    height: 250px;
-    width: 250px;
-  }
+
   .home .home-content .text-1 {
     font-size: 30px;
   }
@@ -596,13 +581,6 @@ footer p span {
   }
 }
 @media (max-width: 700px) {
-  .services .services-content .left,
-  .services .services-content .middle,
-  .services .services-content .right {
-    margin: 0px auto 30px auto;
-    width: 100%;
-  }
-
   .home .home-content .text-1 {
     font-size: 30px;
   }
@@ -624,10 +602,26 @@ footer p span {
   .articles .articles-content .article {
     width: 90%;
   }
+  section {
+    margin: 0 15px 0 15px;
+  }
+  .services .services-content .left,
+  .services .services-content .middle,
+  .services .services-content .right {
+    margin: 0px auto 30px auto;
+    width: 90%;
+  }
+  .about .about-content .left img {
+    height: 250px;
+    width: 250px;
+  }
 }
 @media (max-width: 420px) {
   .articles .articles-content .article {
     width: 100%;
+  }
+  .services .services-content .middle .mini-boxes {
+    width: 80%;
   }
 }
 
@@ -636,19 +630,10 @@ footer p span {
     height: 200px;
     width: 200px;
   }
-  .about .about-content .left img {
-    height: 200px;
-    width: 200px;
-  }
 }
 
 @media (max-width: 300px) {
   .services .services-content .middle .mini-boxes {
-    background-color: #151924;
-    border-radius: 10px;
-    height: 105px;
-    width: 160px;
-    padding: 10px 5px 0px 20px;
-    margin: auto;
+    width: 100%;
   }
 }
