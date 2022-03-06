@@ -10,6 +10,7 @@
   display: block;
   font-weight: 600;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 iframe {
   width: 100%;
@@ -39,6 +40,7 @@ iframe {
   font-size: 20px;
   font-weight: 600;
   color: white;
+  padding: auto;
 }
 .post .max-width .content .title span {
   font-size: 15px;
@@ -47,11 +49,11 @@ iframe {
 }
 hr {
   border-radius: 10px;
-  width: 80%;
-  height: 1px;
+  width: 60%;
+  height: 0.5px;
   background-color: white;
   border: none;
-  margin: 20px auto 10px auto;
+  margin: 10px auto 10px auto;
 }
 
 .contenido {

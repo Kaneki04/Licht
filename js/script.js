@@ -21,4 +21,30 @@ $(window).scroll(function(){
         backSpeed:60,
         loop:true
     });
+    const sections = document.querySelectorAll('section[id]')
+
+function scrollActive(){
+    const scrollY = window.pageYOffset
+
+    sections.forEach(current =>{
+        const sectionHeight = current.offsetHeight,
+              sectionTop = current.offsetTop-55,
+              sectionId = current.getAttribute('id')
+
+        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+            document.querySelector('.menu ul li a[href*=' + sectionId + '] i').classList.add('active-link')
+        }else{
+            document.querySelector('.menu ul li a[href*=' + sectionId + '] i').classList.remove('active-link')
+        }
+    })
+}
+window.addEventListener('scroll', scrollActive)
+const sr =ScrollReveal({
+    origin:'top',
+    distance:'50px',
+    duration:1000,
+    delay:400
+})
+sr.reveal('.home-content')
+
 });

@@ -1,3 +1,7 @@
+:root {
+  --bg-colour: #090f1b;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,12 +29,14 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #086e7d;
 }
+
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #090f1b;
+  background-color: var(--bg-colour);
 }
+
 ul {
   list-style: none;
 }
@@ -59,7 +65,7 @@ header {
   transform: scale(1.1);
 }
 .nav .logo span {
-  color: #086e7d;
+  color: #1cafc5;
   font-size: 25px;
 }
 .theme {
@@ -73,12 +79,12 @@ header {
 .menu {
   position: fixed;
   bottom: 1rem;
-  width: 30%;
+  width: 25%;
   border-radius: 30px;
   padding: 1rem 1.5rem;
   backdrop-filter: blur(10px);
   background-color: #151924;
-  margin: 0 35% 0 35%;
+  margin: 0 37.5% 0 37.5%;
 }
 .menu .nav-list {
   display: flex;
@@ -97,6 +103,7 @@ header {
 .menu .nav-list .nav-item {
   transition: all 0.3s ease-out;
 }
+
 /* max-width */
 .max-width {
   max-width: 1300px;
@@ -112,7 +119,7 @@ header {
     color: white;
   }
   .nav.sticky .logo span {
-    color: #090f1b;
+    color: var(--bg-colour);
   }
 }
 
@@ -154,7 +161,7 @@ header {
 }
 @media (max-width: 690px) {
   article {
-    width: 100%;
+    width: 90%;
     padding: 0 20px 0 20px;
   }
 }
