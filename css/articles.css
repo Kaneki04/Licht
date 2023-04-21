@@ -42,11 +42,13 @@ iframe {
   color: white;
   padding: auto;
 }
+
 .post .max-width .content .title span {
   font-size: 15px;
   color: white;
   font-weight: 600;
 }
+
 hr {
   border-radius: 10px;
   width: 60%;

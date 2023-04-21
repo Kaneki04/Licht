@@ -1,3 +1,4 @@
+
 hr {
   border-radius: 10px;
   width: 50%;
@@ -156,23 +157,41 @@ section .title span {
   margin-right: 10px;
 }
 
-.about .about-content .right .download {
+
+.about .about-content .right .row{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  background: black;
+  justify-content: start;
+  
+}
+
+.about .about-content .right .download {
+  border: 1px solid white;
+  background: transparent;
+  color: white;  
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  height: 50px;
   width: 150px;
-  height: 45px;
+  padding-left: 20px;
   margin-top: 20px;
   border-radius: 10px;
   transition: 0.3s;
   font-size: 14px;
 }
+
+.btns-margin{
+  width: 25px;
+}
+
 .about .about-content .right .download:hover {
-  color: black;
-  background: white;
+  color: white;
+  background: black;
+
 }
 
 .about .about-content .column {
@@ -315,7 +334,7 @@ footer p span {
   position: absolute;
   background-color: #1cafc5;
   height: 7px;
-  width: 90%;
+  width: 100%;
   left: 0;
   top: 0;
   border-radius: 6px;
@@ -518,6 +537,7 @@ input {
     justify-content: center;
     margin: 0 auto 60px;
   }
+
   .about .about-content .right {
     width: 300px;
     margin: 0 auto 0 auto;

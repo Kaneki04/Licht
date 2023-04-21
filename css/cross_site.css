@@ -1,13 +1,13 @@
 :root {
   --bg-colour: #090f1b;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
 }
 ::-webkit-scrollbar {
   width: 11px;
