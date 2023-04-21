@@ -29,6 +29,7 @@ p a {
   color: white;
 }
 
+
 .post .max-width .content .abajo {
   display: flex;
   justify-content: space-between;
@@ -54,6 +55,10 @@ p a {
   border-radius: 10px;
   transition: 0.3s;
   font-size: 14px;
+  transform: translateY(10px);
+}
+#roboter{
+  transform: translateY(-10px);
 }
 .post .max-width .content .download:hover {
   background: black;
