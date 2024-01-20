@@ -1,5 +1,6 @@
 :root {
   --bg-colour: #090f1b;
+
 }
 * {
   margin: 0;
@@ -35,6 +36,7 @@ html {
 }
 body {
   background-color: var(--bg-colour);
+
 }
 
 ul {
